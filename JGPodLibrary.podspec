@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
      LICENSE
    }
   s.author           = { 'JG-Flores' => 'guerraflores2012@gmail.com' }
-  s.source           = { :git => 'https://github.com/CocoaPods/Specs.git', :branch => "master" :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JG-Flores/JGPodLibrary.git', :tag => 'v0.1.0' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
