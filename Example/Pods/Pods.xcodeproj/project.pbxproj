@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0B937C603FB333C0BDBFF32F2C9521D3 /* Pods-JGPodLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6AC3C35D5F9E37A229FF104A90149E /* Pods-JGPodLibrary_Example-dummy.m */; };
+		0BEEB0E725B7F59A0026DBE6 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEB0E625B7F59A0026DBE6 /* Logger.swift */; };
 		0C88377A291209D89CD316C7683FFCCC /* Pods-JGPodLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0328910F692ECA248B4367E3196FD7B /* Pods-JGPodLibrary_Tests-dummy.m */; };
 		1950D21AB13D1139421FE41037A512E9 /* JGPodLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4808C228015F0EFF05D6F56E73E1DEE6 /* JGPodLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C2C2AE45A86E41D8EA9AE8210AFA250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		61429AD1E97801FAF065833DC91F9C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8986CF3FFD736DD260E27A28C124F0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D06B7693B624E97D087F84F166BC4188 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11063CCA739D42C34A6846F2D7755B /* ReplaceMe.swift */; };
 		D46445312C4915AFF73D49481B5E3C2B /* Pods-JGPodLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F37A29F3B741C82A44174CB5589B9EA /* Pods-JGPodLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9CB7D974273B0D26E950FE4DF76036D /* JGPodLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B985BD292E4BB3DBB7815FCE8F95262 /* JGPodLibrary-dummy.m */; };
 		F751A8C1231934BA9FB9A7F0FEF59714 /* Pods-JGPodLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5C51F74BEB51359AD070AC9D394C63 /* Pods-JGPodLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,11 +38,11 @@
 
 /* Begin PBXFileReference section */
 		06FE15A5CB37411B81F7183B684C7557 /* Pods-JGPodLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JGPodLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BEEB0E625B7F59A0026DBE6 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = JGPodLibrary/Classes/Logger.swift; sourceTree = "<group>"; };
 		17E505DEBCA154C4EF2D8DA67C4BA863 /* Pods-JGPodLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JGPodLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		17ECC55E5AF8C7A6230D7742935361E6 /* Pods_JGPodLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JGPodLibrary_Example.framework; path = "Pods-JGPodLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		260E7E6B21DCFE68E02FF0C5388074A7 /* Pods_JGPodLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JGPodLibrary_Tests.framework; path = "Pods-JGPodLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27C2673BA7539697D8F709151CCB5C73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2C11063CCA739D42C34A6846F2D7755B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JGPodLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		17ECC55E5AF8C7A6230D7742935361E6 /* Pods_JGPodLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGPodLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		260E7E6B21DCFE68E02FF0C5388074A7 /* Pods_JGPodLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGPodLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C2673BA7539697D8F709151CCB5C73 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2C502A87F39F0733089CB6805FEBDA94 /* JGPodLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGPodLibrary-prefix.pch"; sourceTree = "<group>"; };
 		3ADF4C16BD8656D04DA9D2C046A6D58F /* Pods-JGPodLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGPodLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3E6AC3C35D5F9E37A229FF104A90149E /* Pods-JGPodLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JGPodLibrary_Example-dummy.m"; sourceTree = "<group>"; };
@@ -52,23 +52,23 @@
 		568E2298EB3630C465CA4D59DEADED08 /* Pods-JGPodLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JGPodLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		58CC5A382C539686728AF0B01F7A1671 /* Pods-JGPodLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGPodLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		60D94077A7D0C7C710862E82045E1908 /* JGPodLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JGPodLibrary-Info.plist"; sourceTree = "<group>"; };
-		6973A6ED584FDB22074C059FA52B7511 /* JGPodLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JGPodLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6973A6ED584FDB22074C059FA52B7511 /* JGPodLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JGPodLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		80516B00DD5945C4C6AD1AD704D40DA7 /* JGPodLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGPodLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		8932BEF73A2B15EE660B7FE91A0AA45B /* Pods-JGPodLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JGPodLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		8B985BD292E4BB3DBB7815FCE8F95262 /* JGPodLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGPodLibrary-dummy.m"; sourceTree = "<group>"; };
 		8FD96A5C9A22EA207CC0E2F2445642FE /* Pods-JGPodLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JGPodLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0328910F692ECA248B4367E3196FD7B /* Pods-JGPodLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JGPodLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		A2CFF4DAC52D3147DA0FA172F577E33F /* Pods-JGPodLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JGPodLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A6D29F118BD9D267447E979859A28054 /* JGPodLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGPodLibrary.release.xcconfig; sourceTree = "<group>"; };
 		A9C523FA06D4137EF59D6562B4255708 /* Pods-JGPodLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JGPodLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AC5C51F74BEB51359AD070AC9D394C63 /* Pods-JGPodLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JGPodLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B9E3BB97E9B146223BDAD07EC4FD8AF5 /* JGPodLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JGPodLibrary.framework; path = JGPodLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9E3BB97E9B146223BDAD07EC4FD8AF5 /* JGPodLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JGPodLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C625400428855FD82C6544829BD5C015 /* JGPodLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGPodLibrary.modulemap; sourceTree = "<group>"; };
 		E1A2D3A7740890D9986832B191288092 /* Pods-JGPodLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JGPodLibrary_Example-Info.plist"; sourceTree = "<group>"; };
 		E50CE1C4635C6E6C6A84375C9640DFAB /* Pods-JGPodLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JGPodLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E60CCBC4C95B8D04589692B41ED7F580 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E60CCBC4C95B8D04589692B41ED7F580 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EECA6D77D298D6F501983AFC65338358 /* Pods-JGPodLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JGPodLibrary_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,9 +103,9 @@
 		12CE278DAFA74FCD22BA2E77551DA1ED /* JGPodLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				2C11063CCA739D42C34A6846F2D7755B /* ReplaceMe.swift */,
 				362CB7049008D11A635CC0E796048C73 /* Pod */,
 				55AA8C134B801FE5E61770BB78C74AD3 /* Support Files */,
+				0BEEB0E625B7F59A0026DBE6 /* Logger.swift */,
 			);
 			name = JGPodLibrary;
 			path = ../..;
@@ -317,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					F847AC130E0ECB3C15956DA747208B68 = {
+						LastSwiftMigration = 1200;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9CB7D974273B0D26E950FE4DF76036D /* JGPodLibrary-dummy.m in Sources */,
-				D06B7693B624E97D087F84F166BC4188 /* ReplaceMe.swift in Sources */,
+				0BEEB0E725B7F59A0026DBE6 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6D29F118BD9D267447E979859A28054 /* JGPodLibrary.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -555,6 +561,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JGPodLibrary/JGPodLibrary.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = jg.cocoapods.JGPodLibrary;
 				PRODUCT_MODULE_NAME = JGPodLibrary;
 				PRODUCT_NAME = JGPodLibrary;
 				SDKROOT = iphoneos;
@@ -656,8 +663,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -667,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80516B00DD5945C4C6AD1AD704D40DA7 /* JGPodLibrary.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -681,11 +688,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JGPodLibrary/JGPodLibrary.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = jg.cocoapods.JGPodLibrary;
 				PRODUCT_MODULE_NAME = JGPodLibrary;
 				PRODUCT_NAME = JGPodLibrary;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

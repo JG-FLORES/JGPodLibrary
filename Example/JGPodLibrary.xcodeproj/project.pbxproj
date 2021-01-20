@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		27EE902B19976056EDA083FE /* Pods-JGPodLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGPodLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-JGPodLibrary_Example/Pods-JGPodLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		29F67CF5D60658B341E97918 /* Pods-JGPodLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGPodLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-JGPodLibrary_Tests/Pods-JGPodLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		36D6600B371F624693C07A99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		36D6600B371F624693C07A99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		534D198E5E7905F91903D2A6 /* Pods-JGPodLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGPodLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-JGPodLibrary_Example/Pods-JGPodLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		59A97634AA755D4AE791EA3E /* JGPodLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JGPodLibrary.podspec; path = ../JGPodLibrary.podspec; sourceTree = "<group>"; };
+		59A97634AA755D4AE791EA3E /* JGPodLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JGPodLibrary.podspec; path = ../JGPodLibrary.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JGPodLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGPodLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D0DB550915623AE0F59C6CE /* Pods_JGPodLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGPodLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85A230FB8954C395BE5505AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		85A230FB8954C395BE5505AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		93772CA4443F3FB106A88084 /* Pods_JGPodLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGPodLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49EB742F9EBEC25393A8520 /* Pods-JGPodLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGPodLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JGPodLibrary_Tests/Pods-JGPodLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				E49EB742F9EBEC25393A8520 /* Pods-JGPodLibrary_Tests.debug.xcconfig */,
 				29F67CF5D60658B341E97918 /* Pods-JGPodLibrary_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KU643D986T;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KU643D986T;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,10 +480,11 @@
 			baseConfigurationReference = 534D198E5E7905F91903D2A6 /* Pods-JGPodLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KU643D986T;
 				INFOPLIST_FILE = JGPodLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jg.JGPodLibrary-Example.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -493,10 +496,11 @@
 			baseConfigurationReference = 27EE902B19976056EDA083FE /* Pods-JGPodLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KU643D986T;
 				INFOPLIST_FILE = JGPodLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "jg.JGPodLibrary-Example.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E49EB742F9EBEC25393A8520 /* Pods-JGPodLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KU643D986T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 29F67CF5D60658B341E97918 /* Pods-JGPodLibrary_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = KU643D986T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
