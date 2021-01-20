@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JGPodLibrary_Example' do
+  pod 'JGPodLibrary', :path => '../'
+
+  target 'JGPodLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
