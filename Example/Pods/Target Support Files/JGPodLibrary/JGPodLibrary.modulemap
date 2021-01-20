@@ -1,0 +1,6 @@
+framework module JGPodLibrary {
+  umbrella header "JGPodLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

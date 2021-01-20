@@ -1,0 +1,16 @@
+PODS:
+  - JGPodLibrary (0.1.0)
+
+DEPENDENCIES:
+  - JGPodLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  JGPodLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JGPodLibrary: 0311d38a30086cc41fe155a5add3c7e722377080
+
+PODFILE CHECKSUM: 0e57422abe6a35ad9e19504b20eefdbf5c6de04f
+
+COCOAPODS: 1.10.1
